@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+html {
+    height:100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.navSecond {
+    max-width: 100%;
+    mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+    margin: 0 auto;
+    padding: 1px;
+}
+
+.navSecond ul {
+
+    text-align: right;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 80%, rgba(255, 255, 255, 0.2) 90%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.4);
+}
+
+.navSecond ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navSecond ul li a {
+    padding: 15px;
+    margin-right: 45px;
+    font-family: "Open Sans";
+    text-transform:uppercase;
+    color: rgba(255, 255,255, 0.8);
+    font-size: 13px;
+    text-decoration: none;
+    display: block;
+}
+
+.navSecond ul li a:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.objectAnimation{
+    transition: .2s ease-in-out;
+}
+
+.objectAnimation:hover{
+    transform: scale(1.05);
+
+}
+
+a{
+    text-decoration: none;
+}
+a h6{
+margin-left: 5px;
+}
+
+.subname{
+    font-size: 15px;
+}
+
+
+.musicList{
+    border-right: none;
+    border-width: 1px;
+    border-radius: 0px!important;
+    border-color: white!important;
+    background-color: #212529!important;
+}
+.musicListName{
+
+    text-align: left;
+    margin-left: 15px;
+    transition: .2s ease-in-out;
+}
+
+
+.musicList:hover{
+    transform: scale(1.005);
+}
+
+.nav-item a{
+    text-align: right;
+    justify-content: right;
+    align-self: start;
+
+}
